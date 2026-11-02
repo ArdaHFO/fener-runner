@@ -1,6 +1,6 @@
 # Data and online features / Veriler ve çevrimiçi özellikler
 
-This is a technical description of the current prototype, not a claim of a completed store privacy review.
+This document describes the current implementation. It does not establish that a store privacy review has been completed.
 
 ## English
 
