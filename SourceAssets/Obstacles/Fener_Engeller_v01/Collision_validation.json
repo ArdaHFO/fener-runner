@@ -1,0 +1,112 @@
+{
+  "passed": true,
+  "errors": [],
+  "assets": [
+    {
+      "id": "black",
+      "box_count": 1,
+      "boxes": {
+        "Body": {
+          "min": [
+            -0.6141868829727173,
+            0.0,
+            -0.45178261399269104
+          ],
+          "max": [
+            0.6141868829727173,
+            1.0436240434646606,
+            0.43799999356269836
+          ]
+        }
+      },
+      "jump_geometry_recommendation": {
+        "source_player_scale": 1,
+        "actual_black_obstacle_top": 1.0436240434646606,
+        "vertical_margin": 0.1,
+        "crossing_window_normalized": [
+          0.35,
+          0.65
+        ],
+        "recommended_shared_sine_arc_peak": 2.1,
+        "engine_tested": false,
+        "caveat": "Requires obstacle/player longitudinal overlap to occur within the stated normalized flight window. Actual controller capsule, speed and timing require Unity testing.",
+        "Jump": {
+          "minimum_sine_arc_peak_with_margin": 1.1314932177052792,
+          "minimum_geometry_height_h2_10": 2.0065699052099406,
+          "minimum_clearance_above_actual_obstacle_h2_10": 0.96294586174528,
+          "maximum_player_depth_in_window": 1.1672096848487854
+        },
+        "JumpFlip": {
+          "minimum_sine_arc_peak_with_margin": 1.981341345126009,
+          "minimum_geometry_height_h2_10": 1.2619169133059995,
+          "minimum_clearance_above_actual_obstacle_h2_10": 0.2182928698413389,
+          "maximum_player_depth_in_window": 1.773019254207611
+        }
+      },
+      "passed": true,
+      "errors": []
+    },
+    {
+      "id": "curly",
+      "box_count": 3,
+      "boxes": {
+        "LeftLeg": {
+          "min": [
+            -1.4099998474121094,
+            0.0,
+            -0.6000000238418579
+          ],
+          "max": [
+            -0.7749999999999999,
+            1.66,
+            0.6899999976158142
+          ]
+        },
+        "RightLeg": {
+          "min": [
+            0.7749999999999999,
+            0.0,
+            -0.6000000238418579
+          ],
+          "max": [
+            1.4099998474121094,
+            1.66,
+            0.6899999976158142
+          ]
+        },
+        "TorsoHeader": {
+          "min": [
+            -1.4099998474121094,
+            1.6600000000000001,
+            -0.6000000238418579
+          ],
+          "max": [
+            1.4099998474121094,
+            3.6633224487304688,
+            0.6899999976158142
+          ]
+        }
+      },
+      "free_width": 1.55,
+      "free_height": 1.66,
+      "slide_hold_margins": {
+        "left_margin": 0.16699072122573855,
+        "right_margin": 0.16699072122573855,
+        "top_margin": 0.21443358421325676
+      },
+      "source_slide_sampled_fit_interval_seconds": [
+        0.12,
+        0.6400000000000001
+      ],
+      "suggested_initial_slide_capsule": {
+        "max_height": 1.55,
+        "max_diameter": 1.3,
+        "units": "meters at source scale",
+        "engine_tested": false
+      },
+      "passed": true,
+      "errors": []
+    }
+  ],
+  "scope": "Geometry/layout feasibility only. Unity collision components, controller size, timing, lane transitions and device performance are not tested."
+}

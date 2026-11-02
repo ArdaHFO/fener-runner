@@ -1,0 +1,56 @@
+{
+  "fps": 24,
+  "frame_count": 229,
+  "crossfade_seconds": 0.16666666666666666,
+  "controller_jump_arc": true,
+  "segments": [
+    {
+      "clip": "Run",
+      "first_frame": 1,
+      "last_frame": 38,
+      "seconds": 1.5833333333333333
+    },
+    {
+      "clip": "RunTurn",
+      "first_frame": 43,
+      "last_frame": 66,
+      "seconds": 1.0
+    },
+    {
+      "clip": "Run",
+      "first_frame": 71,
+      "last_frame": 89,
+      "seconds": 0.7916666666666666
+    },
+    {
+      "clip": "JumpFlip",
+      "first_frame": 94,
+      "last_frame": 117,
+      "seconds": 1.0
+    },
+    {
+      "clip": "Run",
+      "first_frame": 122,
+      "last_frame": 140,
+      "seconds": 0.7916666666666666
+    },
+    {
+      "clip": "Jump",
+      "first_frame": 145,
+      "last_frame": 166,
+      "seconds": 0.9166666666666666
+    },
+    {
+      "clip": "Slide",
+      "first_frame": 171,
+      "last_frame": 189,
+      "seconds": 0.7916666666666666
+    },
+    {
+      "clip": "CelebratePoint",
+      "first_frame": 194,
+      "last_frame": 229,
+      "seconds": 1.5
+    }
+  ]
+}

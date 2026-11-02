@@ -1,0 +1,70 @@
+{
+  "file": "/workspace/scratch/73d6f2880577/obstacle-characters/output/Engel_Kayma_KivircikKus_v01.glb",
+  "passed": true,
+  "errors": [],
+  "warnings": [],
+  "scope": "Independent GLB structure and static geometry checks. Engine colliders, timing, materials in Unity and mobile performance require integration testing.",
+  "file_bytes": 995016,
+  "generator": "Khronos glTF Blender I/O v4.5.51",
+  "coordinate_system": "glTF +Y up, +Z forward after Blender -Y conversion; metres",
+  "node_count": 2,
+  "mesh_count": 1,
+  "mesh_instances": 1,
+  "primitive_instances": 9,
+  "vertices_instanced": 21902,
+  "triangles_instanced": 36702,
+  "material_count": 9,
+  "normal_max_length_error": 1.375438105633009e-07,
+  "skin_count": 0,
+  "animation_count": 0,
+  "images": [
+    {
+      "name": "curly_bird_jersey_basecolor",
+      "embedded_bytes": 64011,
+      "mime_type": "image/png",
+      "width": 1024,
+      "height": 1024
+    }
+  ],
+  "bounds": {
+    "min": [
+      -1.4099998474121094,
+      0.0,
+      -0.6000000238418579
+    ],
+    "max": [
+      1.4099998474121094,
+      3.6633224487304688,
+      0.6899999976158142
+    ],
+    "size": [
+      2.8199996948242188,
+      3.6633224487304688,
+      1.2900000214576721
+    ]
+  },
+  "slide_corridor": {
+    "width": 1.55,
+    "height": 1.66,
+    "depth": "entire exported model",
+    "boundary_tolerance": 0.0001,
+    "triangle_intrusions": 0,
+    "passed": true,
+    "method": "Clip every exported world-space triangle projected to X/Y against the open corridor rectangle. Projection includes all depth positions; degenerate projections are retained.",
+    "player_slide_envelope_blender": {
+      "x_min": -0.6080092787742615,
+      "x_max": 0.6080092787742615,
+      "z_min": 0.00999993085861206,
+      "z_max": 1.4455664157867432,
+      "y_min": -0.9679560661315918,
+      "y_max": 0.5014642477035522
+    },
+    "left_margin": 0.16699072122573855,
+    "right_margin": 0.16699072122573855,
+    "top_margin": 0.21443358421325676,
+    "standing_player_height": 2.0275402069091797,
+    "standing_height_exceeds_opening": true,
+    "player_slide_aabb_prism_triangle_intrusions": 0,
+    "slide_hold_geometry_fits": true
+  }
+}

@@ -1,0 +1,24 @@
+KARTAL V0.1 — OYUNA BAĞLAMA NOTU
+
+Bu dosya sonraki entegrasyon çalışmasına hazırlık içindir. Mevcut teslimat yalnızca karakter varlığıdır.
+
+Amaç: Kendi karakterini kullanan, üç şeritli mobil sonsuz koşu oyunu. Kullanıcı önce karakter görünüşünü ve hareket tavrını değerlendirmek istiyor; yeni oyun/ekran/yayın işlemi bu model teslimatının parçası değildir.
+
+Model: Kartal_Runner_v01.fbx (Unity) veya Kartal_Runner_v01.glb (destekleyen motor/loader).
+Rig: Generic; kök kemik root. Dünya hareketi oyun kontrolcüsündedir.
+Klipler: Idle, Run, Jump, Slide, RunTurn, JumpFlip, CelebratePoint.
+FBX klip adlarının başına rig adı eklenirse son bölümleri yukarıdaki adlarla eşleştir.
+
+Entegrasyon tasarımı:
+- Fizik/çarpışma kökü ile görsel modeli ayrı transformlarda tut.
+- İleri hız, şerit değişimi ve zıplama eğrisini kontrolcü yönetir; Apply Root Motion kapalıdır.
+- Run ve Idle döngülü; diğer hareketler tek seferliktir.
+- Animasyonlar arası 0,10–0,18 sn geçişle başlayıp oyunun hızında ayarla.
+- RunTurn güvenli boş aralıklarda otomatik küçük gösteri olarak tetiklenebilir.
+- JumpFlip, süresi ve fiziksel sıçraması kontrolcüyle eşleştirilen zıplama varyantıdır.
+- Otomatik gösteriler oyuncunun kaçış girdilerini geciktirmemeli; gerektiğinde kesilebilmeli.
+- Kamera genelde arkadan izler; dönüş animasyonu sırasında yüzün görünmesini kontrol et.
+- Malzeme aktarımını, ayak temasını, gaga/yaka kesişmelerini ve gerçek telefonda kare süresini kontrol et.
+
+Doğrulananlar: GLB skin ve animasyon verisi; tam360 dönüş/takla; Blender'da FBX yeniden içe aktarma; gerçek model renderları.
+Henüz yapılmayanlar: Unity sahnesi/Animator kurulumu, dokunmatik kontrol entegrasyonu, gerçek cihaz testi ve oyun içi performans iyileştirmesi.

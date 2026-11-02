@@ -1,0 +1,1 @@
+Güncel kayıt kullanıcının sağladığı ses8.mp3 dosyasıdır ve özgün haliyle korunur. Önceki ses8.mpeg yalnız arşivdir, oyunda kullanılmaz. Menü ve market arka planında döngü halinde çalar. Koşuda durur. Yedi güç/konuşma kaydından ayrı tutulur. Menü kanal seviyesi 0,60 değerinden 0,80 değerine yükseltildi.

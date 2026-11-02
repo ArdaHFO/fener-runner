@@ -1,0 +1,9 @@
+{
+  "source": "ses8.mp3",
+  "originalSHA256": "137f907dd657f0538a8f49b43745098773625b27d7cf573d41022beedf58ea30",
+  "wavSHA256": "ddb813618d40f000a94bb9d966f4df146c0488807ff1d48595a01e3f82d6705d",
+  "seconds": 73.2734693877551,
+  "sampleRate": 44100,
+  "channels": 2,
+  "conversion": "PCM WAV, loudnorm -18 LUFS / -2 dBTP, original channel count; Unity streams Vorbis"
+}

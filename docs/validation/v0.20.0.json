@@ -1,0 +1,212 @@
+{
+  "release": "0.20.0",
+  "unity": "6000.3.0f1",
+  "baselineUtc": "2026-11-01T19:13:17.949894+00:00",
+  "scope": "Historical native Unity Editor baseline; not a new publication-time Unity run or physical-device test.",
+  "nativePlayMode": {
+    "passed": true,
+    "stages": 27,
+    "conditions": 2993,
+    "runs": "Successful stages 1-3, stage 4 and continuation 5-27; production sources unchanged across those sessions.",
+    "results": [
+      {
+        "report": "unity_pause_workshop_v20.json",
+        "passed": true,
+        "conditions": 270,
+        "originalReportSha256": "af19f993f9479052576313b1885dec4512b51b65f9322fc8beb6f669fce39a95"
+      },
+      {
+        "report": "unity_market_garage_v20.json",
+        "passed": true,
+        "conditions": 146,
+        "originalReportSha256": "9cd945a777e62f209080dbb377050ba895bb99a75a4792cf41183bfc569e953d"
+      },
+      {
+        "report": "unity_collectibles_v20.json",
+        "passed": true,
+        "conditions": 83,
+        "originalReportSha256": "da01df2cf4fc035c58db78fb7d995811ef5157970777c4c1c1adfddacd4bfc3d"
+      },
+      {
+        "report": "unity_friends_v20.json",
+        "passed": true,
+        "conditions": 292,
+        "originalReportSha256": "6322b26e7bf480f3d3f2f852ff580b3e6540aa588c81a436f7168f5873b26304"
+      },
+      {
+        "report": "unity_friends_cloud_v20.json",
+        "passed": true,
+        "conditions": 21,
+        "originalReportSha256": "30bf822205b07312b8aa67a7a7ea18cbf04768e18700442e7fe1535515b8c379"
+      },
+      {
+        "report": "unity_ghost_protocol_v20.json",
+        "passed": true,
+        "conditions": 31,
+        "originalReportSha256": "278097d514c76a0f9098eea47d7f25cfc368384466deff11a49382304866bcb7"
+      },
+      {
+        "report": "unity_multiplayer_session_v20.json",
+        "passed": true,
+        "conditions": 37,
+        "originalReportSha256": "b9829f1a4266d37d517eccb27975f7fa0056d8e33f480a166bee21fe40d7787a"
+      },
+      {
+        "report": "unity_multiplayer_relay_v20.json",
+        "passed": true,
+        "conditions": 44,
+        "originalReportSha256": "1485b620daaa5aa0fdd22b43680db0e658439a63c8e9201fb7df6e240665af59"
+      },
+      {
+        "report": "unity_multiplayer_ui_v20.json",
+        "passed": true,
+        "conditions": 205,
+        "originalReportSha256": "874832cc2a7fd8a0ecf581726875ecccf7836249695b575862c66e1b1c359c47"
+      },
+      {
+        "report": "unity_multiplayer_gameplay_v20.json",
+        "passed": true,
+        "conditions": 53,
+        "originalReportSha256": "a580dcc48f957a0d7996a3a988752f7362190fd210fbba4bc4e07d70922b0e4f"
+      },
+      {
+        "report": "unity_contacts_v20.json",
+        "passed": true,
+        "conditions": 754,
+        "originalReportSha256": "f19fc63b8eb54508ecb91586774e614eecde81831c1a9a348b4ecdcb949c376b"
+      },
+      {
+        "report": "unity_coins_v20.json",
+        "passed": true,
+        "conditions": 46,
+        "originalReportSha256": "16c231deecea4bd3fcd8d22df0c35e7daf54ea34da9b07759bca836f5d2ea4c7"
+      },
+      {
+        "report": "unity_chick_tokens_v20.json",
+        "passed": true,
+        "conditions": 31,
+        "originalReportSha256": "80111309a9a12a8e4255ff6252c97ec7f983b3c45cf4c5c3835404122e01dd4f"
+      },
+      {
+        "report": "unity_collisions_v20.json",
+        "passed": true,
+        "conditions": 151,
+        "originalReportSha256": "af2c908df1c491212c6666c1aeb93f2c10a63b943cbee6e2a92e74549368a5ac"
+      },
+      {
+        "report": "unity_hitboxes_v20.json",
+        "passed": true,
+        "conditions": 33,
+        "originalReportSha256": "9251387e55c2a08b36ab9502f2ecc541eb4ce5176bf2687291ad57dd1a04b320"
+      },
+      {
+        "report": "unity_double_actions_v20.json",
+        "passed": true,
+        "conditions": 278,
+        "originalReportSha256": "9297dcc02d469365e19e06fe0b47394ce50ae9e069a47542ce43c955d94dca0d"
+      },
+      {
+        "report": "unity_slide_recovery_v20.json",
+        "passed": true,
+        "conditions": 73,
+        "originalReportSha256": "25f5ab19147bd177e6153cf3694b3d354550c7ea9f08837599d2aa86b5639e1f"
+      },
+      {
+        "report": "unity_speed_transition_v20.json",
+        "passed": true,
+        "conditions": 61,
+        "originalReportSha256": "e54470aa16d0d553c8bef59757c9e9fd656bd6349646b96b1111930a11070f05"
+      },
+      {
+        "report": "unity_power_remix_v20.json",
+        "passed": true,
+        "conditions": 20,
+        "originalReportSha256": "7e924c8a3a32a5fe23393941ff6a696a1c68c4b805bd5d94ad7034021e7e66df"
+      },
+      {
+        "report": "unity_variety_v20.json",
+        "passed": true,
+        "conditions": 111,
+        "originalReportSha256": "a7b4ba2965c93894db8fa944631c048d6c6a1591fa824546c9d253d3c4d386ef"
+      },
+      {
+        "report": "unity_run_flow_v20.json",
+        "passed": true,
+        "conditions": 35,
+        "originalReportSha256": "e611a7bfc1c8119a218eb7709cd8c8131cecb9ef7d503d7d192987796ea93126"
+      },
+      {
+        "report": "unity_ui_audio_v20.json",
+        "passed": true,
+        "conditions": 40,
+        "originalReportSha256": "ca690422ed37d292af8c5e02cfa85b29bc7d5aeb7b74870b86c460447b144e89"
+      },
+      {
+        "report": "unity_lifecycle_v20.json",
+        "passed": true,
+        "conditions": 17,
+        "originalReportSha256": "12c8184e09a6cfad2779762d47c6f14fe89ccdf4d8520443954ecc9b10c0e2ea"
+      },
+      {
+        "report": "unity_audio_lifecycle_v20.json",
+        "passed": true,
+        "conditions": 27,
+        "originalReportSha256": "95b682a13a20ff6baee1d581daf1b5e6111203f805a25453c58e1bff264eac6a"
+      },
+      {
+        "report": "unity_course_v20.json",
+        "passed": true,
+        "conditions": 14,
+        "originalReportSha256": "7da88ea99838a7eb430126149ecbb09a05449d36d4c3872b8751558d5cd3b87f"
+      },
+      {
+        "report": "unity_crowd_props_v20.json",
+        "passed": true,
+        "conditions": 87,
+        "originalReportSha256": "6548a6533d0e73697fd004a4f4f48051ac382bb7aba3266deecd79c3deb75e17"
+      },
+      {
+        "report": "unity_obstacles_v20.json",
+        "passed": true,
+        "conditions": 33,
+        "originalReportSha256": "d241045f61b900bc65b80e7e048e2fa90ce385e315da353b1724dffccec35bda"
+      }
+    ]
+  },
+  "apk": {
+    "filename": "FenerRunner-v0.20-arm64.apk",
+    "bytes": 36504526,
+    "sha256": "a8ced15d1ed41d80bb217e2947bffe469f84e63339c6f193ca882b3cd1b3c372",
+    "versionCode": 20,
+    "package": "com.fenerrunner.prototype",
+    "minAndroidApi": 26,
+    "targetAndroidApi": 36,
+    "architecture": "ARM64",
+    "developmentBuild": false,
+    "signing": "Local Unity debug key; not a production store signing key",
+    "staticChecks": 41,
+    "packagedServiceChecks": 21
+  },
+  "publicationChanges": {
+    "runtimeGameplayChanged": false,
+    "editorCapturePathsMadePortable": [
+      "UnityProject/Assets/FenerRunner/Runtime/Development/MotionCapture.cs",
+      "UnityProject/Assets/FenerRunner/Runtime/Development/ActionMotionCaptureV11.cs",
+      "UnityProject/Assets/FenerRunner/Runtime/Development/PresentationCaptureV9.cs",
+      "UnityProject/Assets/FenerRunner/Runtime/Development/TempoCaptureV12.cs"
+    ]
+  },
+  "limitations": [
+    "No physical Android device validation included",
+    "No measured device FPS, thermal, battery or touchscreen guarantees",
+    "Gallery images are native Unity Editor captures",
+    "Ghost gallery uses a controlled loopback reference peer, not two phones"
+  ],
+  "publicationApkRecheck": {
+    "utc": "2026-11-02T14:00:07.325114+00:00",
+    "checks": 41,
+    "passed": true,
+    "sha256": "a8ced15d1ed41d80bb217e2947bffe469f84e63339c6f193ca882b3cd1b3c372",
+    "scope": "Same binary reverified without a rebuild."
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "file": "/workspace/scratch/73d6f2880577/obstacle-characters/output/Engel_Atlama_SiyahKus_v01.glb",
+  "passed": true,
+  "errors": [],
+  "warnings": [],
+  "scope": "Independent GLB structure and static geometry checks. Engine colliders, timing, materials in Unity and mobile performance require integration testing.",
+  "file_bytes": 431916,
+  "generator": "Khronos glTF Blender I/O v4.5.51",
+  "coordinate_system": "glTF +Y up, +Z forward after Blender -Y conversion; metres",
+  "node_count": 2,
+  "mesh_count": 1,
+  "mesh_instances": 1,
+  "primitive_instances": 10,
+  "vertices_instanced": 9384,
+  "triangles_instanced": 15922,
+  "material_count": 10,
+  "normal_max_length_error": 1.2743085386901498e-07,
+  "skin_count": 0,
+  "animation_count": 0,
+  "images": [
+    {
+      "name": "black_bird_jersey_basecolor",
+      "embedded_bytes": 25542,
+      "mime_type": "image/png",
+      "width": 512,
+      "height": 512
+    }
+  ],
+  "bounds": {
+    "min": [
+      -0.6141868829727173,
+      0.0,
+      -0.45178261399269104
+    ],
+    "max": [
+      0.6141868829727173,
+      1.0436240434646606,
+      0.43799999356269836
+    ],
+    "size": [
+      1.2283737659454346,
+      1.0436240434646606,
+      0.8897826075553894
+    ]
+  }
+}

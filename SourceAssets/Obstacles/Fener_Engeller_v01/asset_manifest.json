@@ -1,0 +1,95 @@
+{
+  "assets": {
+    "black": {
+      "mesh_count": 1,
+      "vertices": 8258,
+      "triangles": 15922,
+      "material_count": 10,
+      "materials": [
+        "BB_Brown_Iris",
+        "BB_Charcoal_Beak",
+        "BB_Charcoal_Feathers",
+        "BB_Crest_Green",
+        "BB_Crest_Red",
+        "BB_Deep_Pupil",
+        "BB_Golden_Trim",
+        "BB_Ivory_Eye_And_Crest",
+        "BB_Navy_Trim",
+        "BB_Striped_Jersey"
+      ],
+      "bounds_blender_z_up": {
+        "min": [
+          -0.6141868829727173,
+          -0.43799999356269836,
+          0.0
+        ],
+        "max": [
+          0.6141868829727173,
+          0.45178261399269104,
+          1.0436240434646606
+        ],
+        "size": [
+          1.2283737659454346,
+          0.8897826075553894,
+          1.0436240434646606
+        ]
+      },
+      "id": "black",
+      "file_stem": "Engel_Atlama_SiyahKus_v01",
+      "role": "jump_over",
+      "static_posed_mesh": true,
+      "armature_count": 0,
+      "animation_count": 0,
+      "blender_version": "4.5.15 LTS",
+      "texture_files": [
+        "textures/black_bird_jersey_basecolor.png"
+      ],
+      "reference_note": "Single reference image interpreted as a stylized 3D obstacle. Unseen back details are designed."
+    },
+    "curly": {
+      "mesh_count": 1,
+      "vertices": 20578,
+      "triangles": 36702,
+      "material_count": 9,
+      "materials": [
+        "CB_Brown_Iris",
+        "CB_Deep_Curly_Hair",
+        "CB_Glossy_Pupil",
+        "CB_Golden_Feathers",
+        "CB_Navy_Collar_And_Trim",
+        "CB_Striped_Jersey",
+        "CB_Warm_Beak_And_Feet",
+        "CB_Warm_Curl_Ridges",
+        "CB_Warm_Eye_White"
+      ],
+      "bounds_blender_z_up": {
+        "min": [
+          -1.4099998474121094,
+          -0.6899999976158142,
+          0.0
+        ],
+        "max": [
+          1.4099998474121094,
+          0.6000000238418579,
+          3.6633224487304688
+        ],
+        "size": [
+          2.8199996948242188,
+          1.2900000214576721,
+          3.6633224487304688
+        ]
+      },
+      "id": "curly",
+      "file_stem": "Engel_Kayma_KivircikKus_v01",
+      "role": "slide_under",
+      "static_posed_mesh": true,
+      "armature_count": 0,
+      "animation_count": 0,
+      "blender_version": "4.5.15 LTS",
+      "texture_files": [
+        "textures/curly_bird_jersey_basecolor.png"
+      ],
+      "reference_note": "Single reference image interpreted as a stylized 3D obstacle. Unseen back details are designed."
+    }
+  }
+}

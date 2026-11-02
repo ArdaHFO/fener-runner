@@ -1,0 +1,77 @@
+{
+  "passed": true,
+  "assets": [
+    {
+      "file": "/workspace/scratch/73d6f2880577/obstacle-characters/output/Engel_Atlama_SiyahKus_v01.fbx",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "blender_version": "4.5.15 LTS",
+      "file_bytes": 351996,
+      "mesh_count": 1,
+      "meshes": [
+        {
+          "name": "Obstacle_Jump_BlackBird_Mesh",
+          "vertices": 8258,
+          "triangles": 15922,
+          "material_slots": 10,
+          "normal_max_length_error": 1.3329553461005617e-07,
+          "signed_triangle_volume_m3": 0.3983669274047731
+        }
+      ],
+      "triangles": 15922,
+      "vertex_count": 8258,
+      "bounds_blender_z_up": {
+        "min": [
+          -0.6141868829727173,
+          -0.437999963760376,
+          8.279338992167595e-09
+        ],
+        "max": [
+          0.6141868829727173,
+          0.45178261399269104,
+          1.0436240434646606
+        ]
+      },
+      "armature_count": 0,
+      "scope": "Static FBX integrity after Blender re-import; not a Unity/device test.",
+      "bounds_max_error_vs_glb": 2.9802322387695312e-08
+    },
+    {
+      "file": "/workspace/scratch/73d6f2880577/obstacle-characters/output/Engel_Kayma_KivircikKus_v01.fbx",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "blender_version": "4.5.15 LTS",
+      "file_bytes": 865548,
+      "mesh_count": 1,
+      "meshes": [
+        {
+          "name": "Obstacle_Slide_CurlyBird_Mesh",
+          "vertices": 20578,
+          "triangles": 36702,
+          "material_slots": 9,
+          "normal_max_length_error": 1.522712524959502e-07,
+          "signed_triangle_volume_m3": 2.5323754566203664
+        }
+      ],
+      "triangles": 36702,
+      "vertex_count": 20578,
+      "bounds_blender_z_up": {
+        "min": [
+          -1.4099998474121094,
+          -0.6899998784065247,
+          4.371139006309477e-09
+        ],
+        "max": [
+          1.4099998474121094,
+          0.6000000834465027,
+          3.6633224487304688
+        ]
+      },
+      "armature_count": 0,
+      "scope": "Static FBX integrity after Blender re-import; not a Unity/device test.",
+      "bounds_max_error_vs_glb": 1.1920928955078125e-07
+    }
+  ]
+}

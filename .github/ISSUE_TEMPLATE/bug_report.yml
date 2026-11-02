@@ -1,0 +1,36 @@
+name: Bug report / Hata bildirimi
+description: Report a reproducible gameplay or installation issue.
+title: "[Bug] "
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Game version / Oyun sürümü
+      placeholder: 0.20.0
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device and OS / Cihaz ve işletim sistemi
+      placeholder: Phone model, Android version, or Unity Editor version
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce / Tekrar adımları
+      description: Include active powers, swipe direction and obstacle type if relevant.
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Expected and actual behavior / Beklenen ve gerçekleşen davranış
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Screenshots or logs / Görseller veya günlükler
+      description: Remove private player IDs, tokens and personal paths before sharing.

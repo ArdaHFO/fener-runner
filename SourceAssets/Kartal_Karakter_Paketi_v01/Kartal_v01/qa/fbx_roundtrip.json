@@ -1,0 +1,274 @@
+{
+  "file": "/workspace/scratch/73d6f2880577/kartal-character/output/Kartal_Runner_v01.fbx",
+  "blender_version": "4.5.15 LTS",
+  "method": "Factory-empty Blender process imports the exported FBX, verifies armature/skin and normalized vertex weights, then assigns every imported bone action and evaluates real bone transforms across its frame range.",
+  "passed": true,
+  "errors": [],
+  "warnings": [],
+  "file_bytes": 2342508,
+  "armature_count": 1,
+  "bone_count": 19,
+  "bone_names": [
+    "root",
+    "pelvis",
+    "spine",
+    "chest",
+    "neck",
+    "head",
+    "jaw",
+    "upper_arm.L",
+    "forearm.L",
+    "hand.L",
+    "upper_arm.R",
+    "forearm.R",
+    "hand.R",
+    "thigh.L",
+    "shin.L",
+    "foot.L",
+    "thigh.R",
+    "shin.R",
+    "foot.R"
+  ],
+  "root_bones": [
+    "root"
+  ],
+  "mesh_count": 1,
+  "meshes": [
+    {
+      "name": "Kartal_Mesh",
+      "vertex_count": 15046,
+      "weighted_vertices": 15046,
+      "armature_modifier_count": 1,
+      "skin_modifier_targets_rig": true,
+      "max_weight_sum_error": 3.2186508178710938e-06,
+      "material_slots": 15
+    }
+  ],
+  "animation_stack_count": 7,
+  "animations": [
+    {
+      "action_name": "Kartal_Rig|Kartal_Rig|CelebratePoint",
+      "clip_name": "CelebratePoint",
+      "frame_range": [
+        1.0,
+        46.0
+      ],
+      "duration_seconds": 1.5,
+      "fcurve_count": 199,
+      "keyframes": 9154,
+      "evaluated_samples": 31,
+      "moving_bones": [
+        "forearm.L",
+        "hand.L",
+        "head",
+        "jaw",
+        "pelvis",
+        "spine",
+        "upper_arm.L",
+        "upper_arm.R"
+      ],
+      "max_bone_matrix_delta": 1.0510580241680145,
+      "root_matrix_delta": 0.0,
+      "action_slots": [
+        "OBKartal_Rig|Kartal_Rig|CelebratePoint"
+      ]
+    },
+    {
+      "action_name": "Kartal_Rig|Kartal_Rig|Idle",
+      "clip_name": "Idle",
+      "frame_range": [
+        1.0,
+        61.0
+      ],
+      "duration_seconds": 2.0,
+      "fcurve_count": 199,
+      "keyframes": 12139,
+      "evaluated_samples": 31,
+      "moving_bones": [
+        "chest",
+        "head",
+        "jaw",
+        "neck",
+        "spine"
+      ],
+      "max_bone_matrix_delta": 0.02298114076256041,
+      "root_matrix_delta": 0.0,
+      "action_slots": [
+        "OBKartal_Rig|Kartal_Rig|Idle"
+      ]
+    },
+    {
+      "action_name": "Kartal_Rig|Kartal_Rig|Jump",
+      "clip_name": "Jump",
+      "frame_range": [
+        1.0,
+        28.0
+      ],
+      "duration_seconds": 0.9,
+      "fcurve_count": 199,
+      "keyframes": 5572,
+      "evaluated_samples": 31,
+      "moving_bones": [
+        "chest",
+        "foot.L",
+        "foot.R",
+        "forearm.L",
+        "forearm.R",
+        "head",
+        "shin.L",
+        "shin.R",
+        "spine",
+        "thigh.L",
+        "thigh.R",
+        "upper_arm.L",
+        "upper_arm.R"
+      ],
+      "max_bone_matrix_delta": 0.8912075385196694,
+      "root_matrix_delta": 0.0,
+      "action_slots": [
+        "OBKartal_Rig|Kartal_Rig|Jump"
+      ]
+    },
+    {
+      "action_name": "Kartal_Rig|Kartal_Rig|JumpFlip",
+      "clip_name": "JumpFlip",
+      "frame_range": [
+        1.0,
+        31.0
+      ],
+      "duration_seconds": 1.0,
+      "fcurve_count": 199,
+      "keyframes": 6169,
+      "evaluated_samples": 31,
+      "moving_bones": [
+        "chest",
+        "foot.L",
+        "foot.R",
+        "forearm.L",
+        "forearm.R",
+        "head",
+        "neck",
+        "pelvis",
+        "shin.L",
+        "shin.R",
+        "spine",
+        "thigh.L",
+        "thigh.R",
+        "upper_arm.L",
+        "upper_arm.R"
+      ],
+      "max_bone_matrix_delta": 2.0,
+      "root_matrix_delta": 0.0,
+      "action_slots": [
+        "OBKartal_Rig|Kartal_Rig|JumpFlip"
+      ]
+    },
+    {
+      "action_name": "Kartal_Rig|Kartal_Rig|Run",
+      "clip_name": "Run",
+      "frame_range": [
+        1.0,
+        25.0
+      ],
+      "duration_seconds": 0.8,
+      "fcurve_count": 199,
+      "keyframes": 4975,
+      "evaluated_samples": 31,
+      "moving_bones": [
+        "chest",
+        "foot.L",
+        "foot.R",
+        "forearm.L",
+        "forearm.R",
+        "hand.L",
+        "hand.R",
+        "head",
+        "neck",
+        "pelvis",
+        "shin.L",
+        "shin.R",
+        "spine",
+        "thigh.L",
+        "thigh.R",
+        "upper_arm.L",
+        "upper_arm.R"
+      ],
+      "max_bone_matrix_delta": 0.9071240834891796,
+      "root_matrix_delta": 0.0,
+      "action_slots": [
+        "OBKartal_Rig|Kartal_Rig|Run"
+      ]
+    },
+    {
+      "action_name": "Kartal_Rig|Kartal_Rig|RunTurn",
+      "clip_name": "RunTurn",
+      "frame_range": [
+        1.0,
+        31.0
+      ],
+      "duration_seconds": 1.0,
+      "fcurve_count": 199,
+      "keyframes": 6169,
+      "evaluated_samples": 31,
+      "moving_bones": [
+        "chest",
+        "foot.L",
+        "foot.R",
+        "forearm.L",
+        "forearm.R",
+        "hand.L",
+        "hand.R",
+        "head",
+        "neck",
+        "pelvis",
+        "shin.L",
+        "shin.R",
+        "spine",
+        "thigh.L",
+        "thigh.R",
+        "upper_arm.L",
+        "upper_arm.R"
+      ],
+      "max_bone_matrix_delta": 2.0,
+      "root_matrix_delta": 0.0,
+      "action_slots": [
+        "OBKartal_Rig|Kartal_Rig|RunTurn"
+      ]
+    },
+    {
+      "action_name": "Kartal_Rig|Kartal_Rig|Slide",
+      "clip_name": "Slide",
+      "frame_range": [
+        1.0,
+        25.0
+      ],
+      "duration_seconds": 0.8,
+      "fcurve_count": 199,
+      "keyframes": 4975,
+      "evaluated_samples": 31,
+      "moving_bones": [
+        "chest",
+        "foot.L",
+        "foot.R",
+        "forearm.L",
+        "forearm.R",
+        "head",
+        "neck",
+        "shin.L",
+        "shin.R",
+        "spine",
+        "thigh.L",
+        "thigh.R",
+        "upper_arm.L",
+        "upper_arm.R"
+      ],
+      "max_bone_matrix_delta": 1.0391625799238682,
+      "root_matrix_delta": 0.0,
+      "action_slots": [
+        "OBKartal_Rig|Kartal_Rig|Slide"
+      ]
+    }
+  ],
+  "scene_fps": 30.0,
+  "scope": "Blender FBX re-import integrity only; no game-engine or physical-device compatibility claim."
+}

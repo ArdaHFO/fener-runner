@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33ba936411dab114884e107763d223ae, type: 3}
+  m_Name: Shared crowd prop library
+  m_EditorClassIdentifier: Assembly-CSharp::FenerRunner.CrowdPropLibrary
+  meshes:
+  - {fileID: 4300000, guid: 1783fd39ab73bd8428ab2f652fafc964, type: 2}
+  - {fileID: 4300000, guid: e6e33508c1eab5d429c348347a3b01c7, type: 2}
+  - {fileID: 4300000, guid: e4cdd876869ffcb489d5535d1d1af86b, type: 2}
+  - {fileID: 4300000, guid: b08d2311654940a498f09af0fc6fe2e9, type: 2}
+  materials:
+  - {fileID: 2100000, guid: 48e7490cbd7dfdb449ea4ab983d50356, type: 2}
+  - {fileID: 2100000, guid: c5e3bf272dee4c74a8bf6a35dd49b430, type: 2}
+  - {fileID: 2100000, guid: c5e3bf272dee4c74a8bf6a35dd49b430, type: 2}
+  - {fileID: 2100000, guid: c5e3bf272dee4c74a8bf6a35dd49b430, type: 2}

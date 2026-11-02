@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3f771673f23f5b488913f9235b587d9, type: 3}
+  m_Name: RunnerSettings
+  m_EditorClassIdentifier: Assembly-CSharp::FenerRunner.RunnerSettings
+  forwardSpeed: 18
+  maxSpeed: 34
+  speedRampDistance: 1800
+  feverSpeedBonus: 3
+  laneSpacing: 3.3
+  laneChangeSeconds: 0.14
+  jumpHeight: 2.65
+  jumpAirSeconds: 0.72
+  jumpAscentFraction: 0.56
+  slideSeconds: 0.85
+  flipEveryJumps: 3
+  blendSeconds: 0.14
+  runReferenceSpeed: 18
+  turnIntervalSeconds: {x: 10, y: 16}
+  cameraOffset: {x: 0, y: 4, z: -7.4}
+  cameraLookOffset: {x: 0, y: 1.35, z: 4.4}
+  cameraLaneFollow: 0.65
+  cameraSmoothSeconds: 0.15
+  swipeScreenFraction: 0.065
+  chunkLength: 40
+  chunkCount: 9
+  originShiftDistance: 1024

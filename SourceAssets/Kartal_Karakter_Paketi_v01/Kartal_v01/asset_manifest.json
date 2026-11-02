@@ -1,0 +1,66 @@
+{
+  "mesh_objects": 1,
+  "vertices": 15046,
+  "triangles": 29328,
+  "material_slots": 15,
+  "bone_count": 19,
+  "blender_version": "4.5.15 LTS",
+  "clips": [
+    {
+      "name": "Idle",
+      "frames": [
+        1.0,
+        61.0
+      ],
+      "duration_seconds": 2.0
+    },
+    {
+      "name": "Run",
+      "frames": [
+        1.0,
+        25.0
+      ],
+      "duration_seconds": 0.8
+    },
+    {
+      "name": "Jump",
+      "frames": [
+        1.0,
+        28.0
+      ],
+      "duration_seconds": 0.9
+    },
+    {
+      "name": "Slide",
+      "frames": [
+        1.0,
+        25.0
+      ],
+      "duration_seconds": 0.8
+    },
+    {
+      "name": "RunTurn",
+      "frames": [
+        1.0,
+        31.0
+      ],
+      "duration_seconds": 1.0
+    },
+    {
+      "name": "JumpFlip",
+      "frames": [
+        1.0,
+        31.0
+      ],
+      "duration_seconds": 1.0
+    },
+    {
+      "name": "CelebratePoint",
+      "frames": [
+        1.0,
+        46.0
+      ],
+      "duration_seconds": 1.5
+    }
+  ]
+}

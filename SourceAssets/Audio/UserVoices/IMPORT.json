@@ -1,0 +1,58 @@
+[
+  {
+    "file": "ses1.mpeg",
+    "originalSHA256": "75ca708366ca5b53d689599778d82e55a16dfa1834fdc5194155ac354d85eada",
+    "wavSHA256": "b4a7a3d40678ba6218d47515466acc7155910ee4a7ca0a5e0ca8aba01476fa1b",
+    "seconds": 1.8426984126984127,
+    "sampleRate": 44100,
+    "channels": 1
+  },
+  {
+    "file": "ses2.mpeg",
+    "originalSHA256": "390bdedba338ec4fd615501175b4ec3bedc733c2f37bed9421afe4f2506705b7",
+    "wavSHA256": "1db1ceeff3dc08aeb895c9789e9525c5e1eb57b29416cf0750bf02f2c1642516",
+    "seconds": 1.163514739229025,
+    "sampleRate": 44100,
+    "channels": 1
+  },
+  {
+    "file": "ses3.mpeg",
+    "originalSHA256": "e50ea79949955eafa051d5a4831eae4e6a3c26c2d96880b982bdac8452388edf",
+    "wavSHA256": "59aba078718dc7523931c57b3fa2cdd2e549d85f06ff1c899f46643c9fef0f44",
+    "seconds": 0.4059637188208617,
+    "sampleRate": 44100,
+    "channels": 1
+  },
+  {
+    "file": "ses4.mpeg",
+    "originalSHA256": "33509ae8f50b7664301a446c4e31072607e7092598c2d348eac6eae94e7057d4",
+    "wavSHA256": "721e23cbb091999eaf5b8c24eaf8367e56fabfcd1e9bde40d6eb2a3e338f22c3",
+    "seconds": 3.5667800453514737,
+    "sampleRate": 44100,
+    "channels": 1
+  },
+  {
+    "file": "ses5.mpeg",
+    "originalSHA256": "4b1270cf7587b6cb06379a326aaa824b2e0dfd65bd22d8093d99a747fc992bfb",
+    "wavSHA256": "6bead7ae2f4907faf212e9a5843bf93f01ad7fa61b6360e2f83696b3e9f42a8b",
+    "seconds": 1.3724943310657596,
+    "sampleRate": 44100,
+    "channels": 1
+  },
+  {
+    "file": "ses6.mpeg",
+    "originalSHA256": "9a585d14c65fdaf806aaa8ae9943cb548fb91a8f86cdb9ff178ed7c456e5a54f",
+    "wavSHA256": "b6fbd1b2bc15de305f0d6d5a074513bc872b31059ddb86cb6c2101f62e194562",
+    "seconds": 1.1896371882086167,
+    "sampleRate": 44100,
+    "channels": 1
+  },
+  {
+    "file": "ses7.mpeg",
+    "originalSHA256": "1aa17d7ee798c66272362c44cb4afc499258f55e734ec3167e4b28d1ff029230",
+    "wavSHA256": "929e1735327479f1fb0fc83624fb92a4e8fe5de738946078459e3b3757acfc88",
+    "seconds": 0.9545351473922903,
+    "sampleRate": 44100,
+    "channels": 1
+  }
+]

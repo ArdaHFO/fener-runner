@@ -1,0 +1,24 @@
+{
+  "source_player_scale": 1,
+  "actual_black_obstacle_top": 1.0436240434646606,
+  "vertical_margin": 0.1,
+  "crossing_window_normalized": [
+    0.35,
+    0.65
+  ],
+  "recommended_shared_sine_arc_peak": 2.1,
+  "engine_tested": false,
+  "caveat": "Requires obstacle/player longitudinal overlap to occur within the stated normalized flight window. Actual controller capsule, speed and timing require Unity testing.",
+  "Jump": {
+    "minimum_sine_arc_peak_with_margin": 1.1314932177052792,
+    "minimum_geometry_height_h2_10": 2.0065699052099406,
+    "minimum_clearance_above_actual_obstacle_h2_10": 0.96294586174528,
+    "maximum_player_depth_in_window": 1.1672096848487854
+  },
+  "JumpFlip": {
+    "minimum_sine_arc_peak_with_margin": 1.981341345126009,
+    "minimum_geometry_height_h2_10": 1.2619169133059995,
+    "minimum_clearance_above_actual_obstacle_h2_10": 0.2182928698413389,
+    "maximum_player_depth_in_window": 1.773019254207611
+  }
+}

@@ -1,0 +1,18 @@
+İKİ ÖZEL ENGEL — CODEX ENTEGRASYON NOTU
+
+Bu paket yalnızca iki engel varlığı ve ölçülerini teslim eder. Oyun entegrasyonuna geçilmesi istendiğinde aşağıdaki bilgiler kullanılmalıdır.
+
+1. Engel_Atlama_SiyahKus_v01.fbx: alçak çömelmiş siyah kuş; üzerinden atlama.
+2. Engel_Kayma_KivircikKus_v01.fbx: bacakları açık kıvırcık saçlı sarı kuş; altından kayma.
+
+İki model statik posed mesh; rig ve animasyon içermez. Sağlanan yüzleri, saç/tüy özelliklerini, formalarını ve pozlarını koru. FBX+textures Unity içindir; .blend ve kaynak betiklerini SourceAssets gibi Assets dışı bir konumda tut. Ana kartalın FBX'i ve animasyonları önceki pakettedir.
+
+collider_layout.json Y-up/metre koordinatlarıyla collider merkez ve boyutlarını verir. Siyah kuş için tek Body kutusu; sarı kuş için iki bacak kutusu ve üst gövde kutusu kullan. Sarı kuşun ortasını tek BoxCollider/convex hull ile kapatma.
+
+Kayma açıklığı 1,55 m genişlik ve1,66 m yükseklik. Mevcut kartalın derin Slide pozu 1,216 m genişlik ve1,446 m yükseklik. Oyun ölçeği değişirse bu ilişkiyi yeniden hesapla. Kıvırcık kuşun toplam genişliği 2,82 m; şerit aralığını ve komşu şeridin açıklığını kontrol et. Oyuncunun gerçek kapsülünü geçide uyarlamadan sadece animasyon görüntüsüne güvenme.
+
+Slide klibi 0,8 sn; geometrinin açıklığa sığdığı kaynak aralık yaklaşık 0,12–0,64 sn. Geçiş karışımları ve hız bunu etkiler. Oyuncunun tamamı engeli geçmeden kapsülü/pozu ayakta duruma döndürme.
+
+Siyah engel1,043624 m yüksek. Taklada kafa kökün altına döner; normal Jump ile JumpFlip için aynı düşük jumpHeight güvenli olmayabilir. Ölçek1'de, engelle bütün örtüşme normalize uçuş 0,35–0,65 aralığında kalıyorsa sinüs yayı tepe yüksekliği 2,10 m, JumpFlip için yaklaşık 21,8 cm görsel boşluk bırakır. Bunu başlangıç parametresi olarak ele al; oyunun gerçek eğrisi/hızı/kapsülü ile sınamalısın. İki zıplama varyantının fiziksel davranışı oyuncu açısından tutarlı olmalı.
+
+Önizlemeler ve raporlar gerçek 3D geometriyi doğrular. Unity oynanış testi yapılmış değildir. Entegrasyonda ayakta doğrudan kayma kapısına koşmayı, doğru zamanda kaymayı, erken/geç kalkmayı ve normal/taklalı zıplamaları ayrı dene. Sağlanan modeller yerine geçici kutular veya yeni karakterler üretme.

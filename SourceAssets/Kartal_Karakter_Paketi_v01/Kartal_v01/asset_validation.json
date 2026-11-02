@@ -1,0 +1,238 @@
+{
+  "file": "/workspace/scratch/73d6f2880577/kartal-character/output/Kartal_Runner_v01.glb",
+  "passed": true,
+  "errors": [],
+  "warnings": [],
+  "file_bytes": 1820768,
+  "generator": "Khronos glTF Blender I/O v4.5.51",
+  "node_count": 21,
+  "mesh_count": 1,
+  "primitive_instances": 15,
+  "vertices_instanced": 16683,
+  "triangles_instanced": 29328,
+  "skinned_vertices_instanced": 16683,
+  "max_weight_sum_error": 2.9802322387695312e-08,
+  "skin_count": 1,
+  "skins": [
+    {
+      "name": "Kartal_Rig",
+      "joint_count": 19,
+      "root_names": [
+        "root"
+      ],
+      "joint_names": [
+        "root",
+        "pelvis",
+        "spine",
+        "chest",
+        "neck",
+        "head",
+        "jaw",
+        "upper_arm.L",
+        "forearm.L",
+        "hand.L",
+        "upper_arm.R",
+        "forearm.R",
+        "hand.R",
+        "thigh.L",
+        "shin.L",
+        "foot.L",
+        "thigh.R",
+        "shin.R",
+        "foot.R"
+      ]
+    }
+  ],
+  "material_count": 15,
+  "texture_count": 2,
+  "images": [
+    {
+      "name": "kartal_knit_normal",
+      "mime_type": "image/png",
+      "embedded_bytes": 392140,
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "name": "kartal_knit_basecolor",
+      "mime_type": "image/png",
+      "embedded_bytes": 230675,
+      "width": 1024,
+      "height": 1024
+    }
+  ],
+  "animations": [
+    {
+      "name": "CelebratePoint",
+      "duration_seconds": 1.5,
+      "channel_count": 57,
+      "keyframes": 466,
+      "target_node_count": 19,
+      "moving_joint_count": 8,
+      "root_motion": [
+        {
+          "bone": "root",
+          "max_translation_delta": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Idle",
+      "duration_seconds": 2.0,
+      "channel_count": 57,
+      "keyframes": 468,
+      "target_node_count": 19,
+      "moving_joint_count": 6,
+      "root_motion": [
+        {
+          "bone": "root",
+          "max_translation_delta": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Jump",
+      "duration_seconds": 0.9,
+      "channel_count": 57,
+      "keyframes": 478,
+      "target_node_count": 19,
+      "moving_joint_count": 14,
+      "root_motion": [
+        {
+          "bone": "root",
+          "max_translation_delta": 0.0
+        }
+      ]
+    },
+    {
+      "name": "JumpFlip",
+      "duration_seconds": 1.0,
+      "channel_count": 57,
+      "keyframes": 578,
+      "target_node_count": 19,
+      "moving_joint_count": 15,
+      "root_motion": [
+        {
+          "bone": "root",
+          "max_translation_delta": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Run",
+      "duration_seconds": 0.8,
+      "channel_count": 57,
+      "keyframes": 528,
+      "target_node_count": 19,
+      "moving_joint_count": 17,
+      "root_motion": [
+        {
+          "bone": "root",
+          "max_translation_delta": 0.0
+        }
+      ]
+    },
+    {
+      "name": "RunTurn",
+      "duration_seconds": 1.0,
+      "channel_count": 57,
+      "keyframes": 636,
+      "target_node_count": 19,
+      "moving_joint_count": 17,
+      "root_motion": [
+        {
+          "bone": "root",
+          "max_translation_delta": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Slide",
+      "duration_seconds": 0.8,
+      "channel_count": 57,
+      "keyframes": 459,
+      "target_node_count": 19,
+      "moving_joint_count": 15,
+      "root_motion": [
+        {
+          "bone": "root",
+          "max_translation_delta": 0.0
+        }
+      ]
+    }
+  ],
+  "bind_pose_scene_bounds": {
+    "min": [
+      -0.9342966286557276,
+      0.023431456951533865,
+      -0.46644484996795654
+    ],
+    "max": [
+      0.9342966286557276,
+      2.0276903607333736,
+      0.6349999840640237
+    ],
+    "size": [
+      1.8685932573114552,
+      2.0042589037818397,
+      1.1014448340319802
+    ]
+  },
+  "unskinned_mesh_nodes": [],
+  "extensions_required": [],
+  "scope": "Structural and binary validation only; appearance, motion quality and device performance require separate inspection.",
+  "rotation_travel_validation": {
+    "file": "/workspace/scratch/73d6f2880577/kartal-character/output/Kartal_Runner_v01.glb",
+    "method": "Read exported joint quaternions, normalize, align each quaternion to the preceding hemisphere, compose successive relative rotations, then sum signed angles along the measured rotation axis. Requires one 360-degree turn, consistent axis, endpoint closure and each sample step below 180 degrees.",
+    "clips": [
+      {
+        "clip": "RunTurn",
+        "joint": "pelvis",
+        "samples": 31,
+        "duration_seconds": 0.9999999664723873,
+        "interpolation": "LINEAR",
+        "signed_rotation_degrees": 360.0000100051542,
+        "absolute_rotation_degrees": 360.0000100051542,
+        "unwrapped_range_degrees": [
+          0.0,
+          360.0000100051542
+        ],
+        "dominant_joint_local_axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "minimum_increment_axis_alignment": 1.0,
+        "largest_rotation_step_degrees": 22.195172329017197,
+        "endpoint_orientation_difference_degrees": 9.956626120759429e-06,
+        "quaternion_hemisphere_sign_corrections": 16,
+        "passed": true
+      },
+      {
+        "clip": "JumpFlip",
+        "joint": "pelvis",
+        "samples": 31,
+        "duration_seconds": 0.9999999664723873,
+        "interpolation": "LINEAR",
+        "signed_rotation_degrees": 360.0000102452821,
+        "absolute_rotation_degrees": 360.0000102452821,
+        "unwrapped_range_degrees": [
+          0.0,
+          360.0000102452821
+        ],
+        "dominant_joint_local_axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "minimum_increment_axis_alignment": 1.0,
+        "largest_rotation_step_degrees": 29.45376888695648,
+        "endpoint_orientation_difference_degrees": 1.024528375501913e-05,
+        "quaternion_hemisphere_sign_corrections": 16,
+        "passed": true
+      }
+    ],
+    "errors": [],
+    "passed": true
+  }
+}

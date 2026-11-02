@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "units": "meters",
+  "axis_system": "Y up, X right, Z forward (Unity/glTF)",
+  "origin": "floor under center of obstacle",
+  "scope": "Suggested local box colliders; actual controller dimensions and Unity playtesting remain required.",
+  "assets": [
+    {
+      "id": "black",
+      "file_stem": "Engel_Atlama_SiyahKus_v01",
+      "required_action": "jump_over",
+      "visual_bounds_y_up": {
+        "min": [
+          -0.6141868829727173,
+          0.0,
+          -0.45178261399269104
+        ],
+        "max": [
+          0.6141868829727173,
+          1.0436240434646606,
+          0.43799999356269836
+        ]
+      },
+      "boxes": [
+        {
+          "name": "Body",
+          "center": [
+            0.0,
+            0.5218120217323303,
+            -0.006891310214996338
+          ],
+          "size": [
+            1.2283737659454346,
+            1.0436240434646606,
+            0.8897826075553894
+          ]
+        }
+      ],
+      "obstacle_top": 1.0436240434646606,
+      "recommended_lane_spacing_min": 2.0
+    },
+    {
+      "id": "curly",
+      "file_stem": "Engel_Kayma_KivircikKus_v01",
+      "required_action": "slide_under",
+      "visual_bounds_y_up": {
+        "min": [
+          -1.4099998474121094,
+          0.0,
+          -0.6000000238418579
+        ],
+        "max": [
+          1.4099998474121094,
+          3.6633224487304688,
+          0.6899999976158142
+        ]
+      },
+      "boxes": [
+        {
+          "name": "LeftLeg",
+          "center": [
+            -1.0924999237060546,
+            0.83,
+            0.04499998688697815
+          ],
+          "size": [
+            0.6349998474121094,
+            1.66,
+            1.2900000214576721
+          ]
+        },
+        {
+          "name": "RightLeg",
+          "center": [
+            1.0924999237060546,
+            0.83,
+            0.04499998688697815
+          ],
+          "size": [
+            0.6349998474121094,
+            1.66,
+            1.2900000214576721
+          ]
+        },
+        {
+          "name": "TorsoHeader",
+          "center": [
+            0.0,
+            2.6616612243652344,
+            0.04499998688697815
+          ],
+          "size": [
+            2.8199996948242188,
+            2.0033224487304686,
+            1.2900000214576721
+          ]
+        }
+      ],
+      "free_opening": {
+        "width": 1.55,
+        "height": 1.66,
+        "min": [
+          -0.775,
+          0,
+          -0.6000000238418579
+        ],
+        "max": [
+          0.775,
+          1.66,
+          0.6899999976158142
+        ]
+      },
+      "do_not_use_enclosing_box_or_convex_hull": true,
+      "recommended_lane_spacing_min": 3.02
+    }
+  ]
+}
