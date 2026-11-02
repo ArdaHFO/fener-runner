@@ -4,7 +4,7 @@
 
 ## İndir
 
-[v0.20.0 sürüm sayfasından](https://github.com/ArdaHFO/Fener-Runner/releases/tag/v0.20.0) [FenerRunner-v0.20-arm64.apk](https://github.com/ArdaHFO/Fener-Runner/releases/download/v0.20.0/FenerRunner-v0.20-arm64.apk) dosyasını indir.
+[v0.20.0 sürüm sayfasından](https://github.com/ArdaHFO/fener-runner/releases/tag/v0.20.0) [FenerRunner-v0.20-arm64.apk](https://github.com/ArdaHFO/fener-runner/releases/download/v0.20.0/FenerRunner-v0.20-arm64.apk) dosyasını indir.
 
 Önizleme sürümü **Android 8.0 veya üzeri ve 64 bit ARM cihaz** gerektirir. APK yaklaşık **34,8 MiB** boyutundadır ve ayrı bir OBB indirmesi gerekmez. iOS, Windows veya tarayıcı için kurulum paketi değildir.
 

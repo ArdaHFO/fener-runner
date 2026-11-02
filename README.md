@@ -1,3 +1,5 @@
+Fener Runner is a mobile game where you dodge obstacles, collect chicks and race through a Fenerbahce-inspired stadium.
+
 <p align="center">
   <img src="docs/media/icon.png" width="112" alt="Fener Runner chick mascot" />
 </p>
@@ -9,8 +11,8 @@
 
 <p align="center">
   <strong>English</strong> · <a href="README.tr.md">Türkçe</a><br />
-  <a href="https://github.com/ArdaHFO/Fener-Runner/releases/download/v0.20.0/FenerRunner-v0.20-arm64.apk"><strong>Download Android APK</strong></a> ·
-  <a href="https://github.com/ArdaHFO/Fener-Runner/releases/tag/v0.20.0">Release notes</a> ·
+  <a href="https://github.com/ArdaHFO/fener-runner/releases/download/v0.20.0/FenerRunner-v0.20-arm64.apk"><strong>Download Android APK</strong></a> ·
+  <a href="https://github.com/ArdaHFO/fener-runner/releases/tag/v0.20.0">Release notes</a> ·
   <a href="docs/INSTALL.md">Installation guide</a>
 </p>
 
@@ -30,7 +32,7 @@ Swipe through a stadium corridor packed with animated supporters. Jump and slide
 | Controls | Swipe left, right, up and down |
 | Online play | Internet connection and the same game version on both devices |
 
-1. Download [FenerRunner-v0.20-arm64.apk](https://github.com/ArdaHFO/Fener-Runner/releases/download/v0.20.0/FenerRunner-v0.20-arm64.apk) on your phone.
+1. Download [FenerRunner-v0.20-arm64.apk](https://github.com/ArdaHFO/fener-runner/releases/download/v0.20.0/FenerRunner-v0.20-arm64.apk) on your phone.
 2. Open the APK and follow Android's installation prompts. If requested, allow installation from the app you used to open it.
 3. Launch **Fener Runner** and tap **SAHAYA ÇIK** to begin.
 

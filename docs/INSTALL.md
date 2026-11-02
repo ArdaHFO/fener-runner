@@ -4,7 +4,7 @@
 
 ## Download
 
-Download [FenerRunner-v0.20-arm64.apk](https://github.com/ArdaHFO/Fener-Runner/releases/download/v0.20.0/FenerRunner-v0.20-arm64.apk) from the [v0.20.0 release](https://github.com/ArdaHFO/Fener-Runner/releases/tag/v0.20.0).
+Download [FenerRunner-v0.20-arm64.apk](https://github.com/ArdaHFO/fener-runner/releases/download/v0.20.0/FenerRunner-v0.20-arm64.apk) from the [v0.20.0 release](https://github.com/ArdaHFO/fener-runner/releases/tag/v0.20.0).
 
 The preview requires **Android 8.0 or newer and a 64-bit ARM device**. The APK is approximately **34.8 MiB**, with no separate OBB download. It is not an iOS, Windows or browser installer.
 

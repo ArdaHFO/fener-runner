@@ -1,3 +1,5 @@
+Fener Runner, Fenerbahçe esintili bir stadyumda engellerden kaçıp civciv topladığın bir mobil oyundur.
+
 <p align="center">
   <img src="docs/media/icon.png" width="112" alt="Fener Runner civciv maskotu" />
 </p>
@@ -9,8 +11,8 @@
 
 <p align="center">
   <a href="README.md">English</a> · <strong>Türkçe</strong><br />
-  <a href="https://github.com/ArdaHFO/Fener-Runner/releases/download/v0.20.0/FenerRunner-v0.20-arm64.apk"><strong>Android APK'yı indir</strong></a> ·
-  <a href="https://github.com/ArdaHFO/Fener-Runner/releases/tag/v0.20.0">Sürüm notları</a> ·
+  <a href="https://github.com/ArdaHFO/fener-runner/releases/download/v0.20.0/FenerRunner-v0.20-arm64.apk"><strong>Android APK'yı indir</strong></a> ·
+  <a href="https://github.com/ArdaHFO/fener-runner/releases/tag/v0.20.0">Sürüm notları</a> ·
   <a href="docs/INSTALL.tr.md">Kurulum rehberi</a>
 </p>
 
@@ -30,7 +32,7 @@ Hareketli taraftarlarla çevrili parkurda kaydırarak ilerle. Değişen engel di
 | Kontroller | Sağa, sola, yukarı ve aşağı kaydırma |
 | Çevrimiçi oyun | Her iki cihazda internet ve aynı oyun sürümü |
 
-1. Telefonuna [FenerRunner-v0.20-arm64.apk](https://github.com/ArdaHFO/Fener-Runner/releases/download/v0.20.0/FenerRunner-v0.20-arm64.apk) dosyasını indir.
+1. Telefonuna [FenerRunner-v0.20-arm64.apk](https://github.com/ArdaHFO/fener-runner/releases/download/v0.20.0/FenerRunner-v0.20-arm64.apk) dosyasını indir.
 2. APK'yı aç ve Android'in kurulum adımlarını izle. İstenirse dosyayı açtığın uygulamaya bu kaynaktan yükleme izni ver.
 3. **Fener Runner**'ı başlat ve **SAHAYA ÇIK** düğmesine dokun.
 

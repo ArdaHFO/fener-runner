@@ -19,8 +19,8 @@ Paket sürümleri `UnityProject/Packages` içinde sabitlenmiştir. Bağımlılı
 ## Aç ve oyna
 
 ```powershell
-git clone https://github.com/ArdaHFO/Fener-Runner.git
-cd Fener-Runner
+git clone https://github.com/ArdaHFO/fener-runner.git
+cd fener-runner
 .\scripts\open-unity.ps1 -UnityEditor "C:\Program Files\Unity\Hub\Editor\6000.3.0f1\Editor\Unity.exe"
 ```
 
